@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru">
+	@@include('html/_head.htm',{
+	"title":"Страница новости"
+	})
+	<body>
+		<div class="wrapper">
+			@@include('html/_header.htm',{})
+			<main class="page">
+				<div class="breadcrambs">
+					<div class="breadcrambs__container">
+						<div class="breadcrambs__content">
+							<ul>
+								<li><a href="#">Главная</a></li>
+								<span>/</span>
+								<li><a href="#">Новости</a></li>
+								<span>/</span>
+								<li><span>Семь дней в Москве. Город открытий: КРЕАТИВНЫЕ ИНДУСТРИИ, ТРАНСПОРТ И КОСМОС, ЭКОЛОГИЯ</span></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="page__news news">
+					<div class="news__container">
+						<div class="news__content">
+							<div class="news__top title">
+								<div class="news__text">
+									<h1>Семь дней в Москве. Город открытий: КРЕАТИВНЫЕ ИНДУСТРИИ, ТРАНСПОРТ И КОСМОС, ЭКОЛОГИЯ</h1>
+								</div>
+							</div>
+							<div class="news__swiper">
+								<div class="news__slider swiper">
+									<div class="news__wrapper swiper-wrapper">
+										<div class="news__slide swiper-slide">
+											<div class="news__image">
+												<img src="../img/image-slider.png" alt>
+											</div>
+										</div>
+										<div class="news__slide swiper-slide">
+											<div class="news__image">
+												<img src="../img/image-slider.png" alt>
+											</div>
+										</div>
+										<div class="news__slide swiper-slide">
+											<div class="news__image">
+												<img src="../img/image-slider.png" alt>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="news__dotts dotts"></div>
+							</div>
+							<div class="news__body">
+								<h2>Заголовок Н2</h2>
+								<p>
+									Организаторам школьных экскурсий в Москве приходится нелегко, ведь из огромного разнообразия музеев, выставочных комплексов, парков нужно выбрать что-то одно. Но есть в Москве особенное место, где можно поиграть, отправиться в увлекательное путешествие сквозь века, прикоснуться к миру искусства и просто погулять. Это ВДНХ. Приглашаем школьников на обзорную экскурсию по выставке, которая давно переросла рамки обычной демонстрации достижений народного хозяйства, превратившись в мегаразвлекательный проект.
+								</p>
+								<h4>Современная ВДНХ - это</h4>
+								<ul>
+									<li>Покорение космоса, об истории которого увлекательно рассказывает экспозиция Музея космонавтики и интерактивного музейного комплекса «Буран». Первый впечатляет своими размерами, потрясающими экспонатами, наглядностью и информативностью. Второй располагается внутри макета орбитального корабля, где посетители могут попробовать себя в роли пилота и «посадить» ракетоплан на космодром Байконур.</li>
+									<li>Городская ферма, где содержатся кролики, козочки, курочки, голуби, а на площади в 3 гектара разместились оранжерея, сад-огород и гончарные мастерские.Любимые мультяшные герои в Музее анимации.</li>
+									<li>Мир подводных глубин, который встречает нас в Москвариуме - огромном океанариуме площадью 12 тыс. кв. м. В его 80 бассейнах и аквариумах обитают более 8 тыс. морских животных и 500 видов рыб со всех уголков нашей планеты.</li>
+								</ul>
+								<p>Есть на ВДНХ аттракционы и спортивные площадки, различные парки (веревочный, исторический, ремесел), колесо обозрения, каток, конный центр и еще много всего интересного. Маршрут экскурсии может трансформироваться в зависимости от возраста, интересов аудитории и времени года. Ребята узнают об истории создания этого замечательного комплекса, увидят самые известные павильоны - настоящие шедевры архитектуры с лепниной, панно и мозаикой, катки с красочной иллюминацией зимой и знаменитые фонтаны летом.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="page__subscribe subscribe">
+					<div class="subscribe__container">
+						<div class="subscribe__content">
+							<div class="subscribe__image">
+								<img src="../img/icons/children.svg" alt>
+							</div>
+							<div class="subscribe__title">
+								<div class="h1">Подписывайтесь на новые экскурсии,<br> программы, туры</div>
+								<form action="#" class="subscribe__form">
+									<div class="subscribe__input">
+										<input data-required data-validate autocomplete="off" type="text" name="form[]" placeholder="E-mail">
+										<button type="submit" class="subscribe__button button">Подписаться</button>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</main>
+			@@include('html/_footer.htm',{})
+		</div>
+		@@include('html/_popup.htm',{})
+		@@include('html/_js.htm',{})
+	</body>
+</html>

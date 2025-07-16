@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ru">
+	@@include('html/_head.htm',{
+	"title":"Контакты"
+	})
+	<body>
+		<div class="wrapper">
+			@@include('html/_header.htm',{})
+			<main class="page">
+				<div class="breadcrambs">
+					<div class="breadcrambs__container">
+						<div class="breadcrambs__content">
+							<ul>
+								<li><a href="#">Главная</a></li>
+								<span>/</span>
+								<li><span>Контакты</span></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="page__main-contacts main-contacts">
+					<div class="main-contacts__container">
+						<div class="main-contacts__top">
+							<div class="main-contacts__text">
+								<h1>Контакты</h1>
+							</div>
+						</div>
+						<div class="main-contacts__body">
+							<div class="main-contacts__content">
+								<div class="main-contacts__column">
+									<div class="main-contacts__item">
+										<div class="main-contacts__icon _icon-phone"></div>
+										<div class="main-contacts__desc">
+											<div class="main-contacts__title">Телефоны:</div>
+											<a href="tel:89771286560">89771286560</a>
+											<a href="tel:89771286560">89060908160</a>
+										</div>
+									</div>
+								</div>
+								<div class="main-contacts__column">
+									<div class="main-contacts__item">
+										<div class="main-contacts__icon _icon-email"></div>
+										<div class="main-contacts__desc">
+											<div class="main-contacts__title">Телефоны:</div>
+											<div class="main-contacts__subtitle">mail@mail.com</div>
+											<a href="mailto:mail@mail.com" class="white-letter">Написать письмо</a>
+										</div>
+									</div>
+								</div>
+								<div class="main-contacts__column">
+									<div class="main-contacts__item">
+										<div class="main-contacts__icon _icon-location"></div>
+										<div class="main-contacts__desc">
+											<div class="main-contacts__title">Адрес:</div>
+											<div class="main-contacts__subtitle">Московская обл., г.Серпухов,
+												ул. Ворошилова, д. 122, 3 этаж
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div id="map" class="main-contacts__map">
+								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2293.0455518175595!2d37.429885212508395!3d54.91967277267371!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4135115c5a4ea179%3A0x7c53a572a9646ff6!2z0YPQuy4g0JLQvtGA0L7RiNC40LvQvtCy0LAsIDEyMiwg0KHQtdGA0L_Rg9GF0L7Qsiwg0JzQvtGB0LrQvtCy0YHQutCw0Y8g0L7QsdC7Liwg0KDQvtGB0YHQuNGPLCAxNDIyMDM!5e0!3m2!1sru!2sby!4v1687307882399!5m2!1sru!2sby" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="page__subscribe subscribe">
+					<div class="subscribe__container">
+						<div class="subscribe__content">
+							<div class="subscribe__image">
+								<img src="../img/icons/children.svg" alt>
+							</div>
+							<div class="subscribe__title">
+								<div class="h1">Подписывайтесь на новые экскурсии,<br> программы, туры</div>
+								<form action="#" class="subscribe__form">
+									<div class="subscribe__input">
+										<input data-required data-validate autocomplete="off" type="text" name="form[]" placeholder="E-mail">
+										<button type="submit" class="subscribe__button button">Подписаться</button>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</main>
+			@@include('html/_footer.htm',{})
+		</div>
+		@@include('html/_popup.htm',{})
+		@@include('html/_js.htm',{})
+	</body>
+</html>

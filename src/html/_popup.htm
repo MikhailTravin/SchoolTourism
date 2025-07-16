@@ -1,0 +1,33 @@
+<div id="call" aria-hidden="true" class="popup call">
+	<div class="popup__wrapper">
+		<div class="popup__content">
+			<button data-close type="button" class="popup__close _icon-close"></button>
+			<div class="popup__body">
+				<h2>Заказать обратный звонок</h2>
+				<form action="#" class="popup__form form-popup">
+					<div class="form-popup__inputs">
+						<div class="form-popup__input">
+							<label for="name">Имя, фамилия:</label>
+							<input data-required id="name" autocomplete="off" type="text" name="form[]" placeholder="Иван Иванов" class="input">
+						</div>
+					</div>
+					<div class="form-popup__inputs">
+						<div class="form-popup__input">
+							<label for="tel">Номер телефона:</label>
+							<input data-required id="tel" autocomplete="off" type="tel" name="form[]" placeholder="+7" class="input tel">
+						</div>
+					</div>
+					<div class="form-popup__checkbox checkbox">
+						<input data-required id="c_1" class="checkbox__input" type="checkbox" value="1" name="form[]">
+						<label for="c_1" class="checkbox__label"></label>
+						<span class="checkbox__text">
+							Я даю свое согласие на обработку
+							<a href="#">персональных данных</a>
+						</span>
+					</div>
+					<button type="submit" class="form-popup__button button">Заказать звонок</button>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>

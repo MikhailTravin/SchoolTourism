@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="ru">
+	@@include('html/_head.htm',{
+	"title":"Каталог"
+	})
+	<body>
+		<div class="wrapper">
+			@@include('html/_header.htm',{})
+			<main class="page">
+				<div class="breadcrambs">
+					<div class="breadcrambs__container">
+						<div class="breadcrambs__content">
+							<ul>
+								<li><a href="#">Главная</a></li>
+								<span>/</span>
+								<li><span>Каталог экскурсий</span></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="page__catalog catalog">
+					<div class="catalog__container">
+						<div class="catalog__content">
+							<div class="catalog__top title">
+								<div class="catalog__text">
+									<h1 class="_icon-cubes">Каталог экскурсий</h1>
+								</div>
+							</div>
+							<div class="catalog__forms">
+								<form action="#" class="catalog__form form-catalog">
+									<div class="form-catalog__item">
+										<div class="form-catalog__selects">
+											<div class="form-catalog__select select">
+												<label for="select_1">По предмету:</label>
+												<div class="select__menu">
+													<div class="select__btn">
+														<div class="select__btntext">
+															<input id="select_1" autocomplete="off" type="text" name="form[]" placeholder="Астрономия" value class="select__input">
+														</div>
+														<div class="select__icon _icon-arrow"></div>
+													</div>
+													<div class="select__body">
+														<ul class="select__options">
+															<li class="select__option">
+																<div class="select__option-text">Астрономия1</div>
+															</li>
+															<li class="select__option">
+																<div class="select__option-text">Астрономия2</div>
+															</li>
+															<li class="select__option">
+																<div class="select__option-text">Астрономия3</div>
+															</li>
+															<li class="select__option">
+																<div class="select__option-text">Астрономия4</div>
+															</li>
+															<li class="select__option">
+																<div class="select__option-text">Астрономия5</div>
+															</li>
+															<li class="select__option">
+																<div class="select__option-text">Астрономия6</div>
+															</li>
+															<li class="select__option">
+																<div class="select__option-text">Астрономия7</div>
+															</li>
+															<li class="select__option">
+																<div class="select__option-text">Астрономия8</div>
+															</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+											<div class="form-catalog__select select">
+												<label for="select_2">Направление:</label>
+												<div class="select__menu">
+													<div class="select__btn">
+														<div class="select__btntext">
+															<input id="select_2" autocomplete="off" type="text" name="form[]" placeholder="Литературные" value class="select__input">
+														</div>
+														<div class="select__icon _icon-arrow"></div>
+													</div>
+													<div class="select__body">
+														<ul class="select__options">
+															<li class="select__option">
+																<div class="select__option-text">Литературные1</div>
+															</li>
+															<li class="select__option">
+																<div class="select__option-text">Литературные2</div>
+															</li>
+															<li class="select__option">
+																<div class="select__option-text">Литературные3</div>
+															</li>
+															<li class="select__option">
+																<div class="select__option-text">Литературные4</div>
+															</li>
+															<li class="select__option">
+																<div class="select__option-text">Литературные5</div>
+															</li>
+															<li class="select__option">
+																<div class="select__option-text">Литературные6</div>
+															</li>
+															<li class="select__option">
+																<div class="select__option-text">Литературные7</div>
+															</li>
+															<li class="select__option">
+																<div class="select__option-text">Литературные8</div>
+															</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+											<div class="form-catalog__select select">
+												<label for="select_3">Возраст группы:</label>
+												<div class="select__menu">
+													<div class="select__btn">
+														<div class="select__btntext">
+															<input id="select_3" autocomplete="off" type="text" name="form[]" placeholder="7-9 лет" value class="select__input">
+														</div>
+														<div class="select__icon _icon-arrow"></div>
+													</div>
+													<div class="select__body">
+														<ul class="select__options">
+															<li class="select__option">
+																<div class="select__option-text">7-9 лет</div>
+															</li>
+															<li class="select__option">
+																<div class="select__option-text">9-10 лет</div>
+															</li>
+															<li class="select__option">
+																<div class="select__option-text">11-12 лет</div>
+															</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+											<div class="form-catalog__select select">
+												<label for="select_4">Сезонность:</label>
+												<div class="select__menu">
+													<div class="select__btn">
+														<div class="select__btntext">
+															<input id="select_4" autocomplete="off" type="text" name="form[]" placeholder="День космонавтики" value class="select__input">
+														</div>
+														<div class="select__icon _icon-arrow"></div>
+													</div>
+													<div class="select__body">
+														<ul class="select__options">
+															<li class="select__option">
+																<div class="select__option-text">День космонавтики1</div>
+															</li>
+															<li class="select__option">
+																<div class="select__option-text">День космонавтики2</div>
+															</li>
+															<li class="select__option">
+																<div class="select__option-text">День космонавтики3</div>
+															</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+										<button type="submit" class="form-catalog__button button">Подобрать экскурсии (345)</button>
+									</div>
+								</form>
+							</div>
+							<div class="catalog__sorted sorted-catalog">
+								<div class="sorted-catalog__title">Сортировать:</div>
+								<div class="sorted-catalog__content">
+									<button type="button" class="_icon-arrow-2">По стоимости</button>
+									<button type="button" class="_icon-arrow-2 arrow-up">По дате</button>
+								</div>
+							</div>
+							<div class="catalog__body">
+								<div class="catalog__column">
+									<div class="catalog__item item-catalog">
+										<div class="item-catalog__image">
+											<img src="../img/catalog/catalog-1.png" alt>
+											<div class="item-catalog__clock">4 часа</div>
+										</div>
+										<div class="item-catalog__content">
+											<div class="item-catalog__top">
+												<div class="item-catalog__rating rating">
+													<div class="rating__body">
+														<div class="rating__line"></div>
+														<div class="rating__activeline"></div>
+														<div class="rating__stars">
+															<input type="radio" class="rating__star" value="1" name="rating">
+															<input type="radio" class="rating__star" value="2" name="rating">
+															<input type="radio" class="rating__star" value="3" name="rating">
+															<input type="radio" class="rating__star" value="4" name="rating">
+															<input type="radio" class="rating__star" value="5" name="rating">
+														</div>
+														<input value="5" type="hidden" name="rating" class="input rating-input">
+													</div>
+												</div>
+												<h4>Экскурсия на ВДНХ «Знакомство с легендой»</h4>
+												<p>
+													Организаторам школьных экскурсий в Москве приходится нелегко, ведь из огромного разнообразия музеев, выставочных комплексов, парков нужно выбрать что-то одно...
+												</p>
+											</div>
+											<div class="item-catalog__bottom">
+												<div class="item-catalog__sum">
+													от 1400
+													<span>p</span>
+												</div>
+												<a href="#" class="item-catalog__button button">Подробнее</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="catalog__column">
+									<div class="catalog__item item-catalog">
+										<div class="item-catalog__image">
+											<img src="../img/catalog/catalog-2.png" alt>
+											<div class="item-catalog__clock">4 часа</div>
+										</div>
+										<div class="item-catalog__content">
+											<div class="item-catalog__top">
+												<div class="item-catalog__rating rating">
+													<div class="rating__body">
+														<div class="rating__line"></div>
+														<div class="rating__activeline"></div>
+														<div class="rating__stars">
+															<input type="radio" class="rating__star" value="1" name="rating">
+															<input type="radio" class="rating__star" value="2" name="rating">
+															<input type="radio" class="rating__star" value="3" name="rating">
+															<input type="radio" class="rating__star" value="4" name="rating">
+															<input type="radio" class="rating__star" value="5" name="rating">
+														</div>
+														<input value="5" type="hidden" name="rating" class="input rating-input">
+													</div>
+												</div>
+												<h4>Экскурсия на Останкинскую телебашню «337 метров над Москвой»</h4>
+												<p>
+													Организаторам школьных экскурсий в Москве приходится нелегко, ведь из огромного разнообразия музеев, выставочных комплексов...
+												</p>
+											</div>
+											<div class="item-catalog__bottom">
+												<div class="item-catalog__sum">
+													от 1400
+													<span>p</span>
+												</div>
+												<a href="#" class="item-catalog__button button">Подробнее</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="catalog__column">
+									<div class="catalog__item item-catalog">
+										<div class="item-catalog__image">
+											<img src="../img/catalog/catalog-3.png" alt>
+											<div class="item-catalog__clock">4 часа</div>
+										</div>
+										<div class="item-catalog__content">
+											<div class="item-catalog__top">
+												<div class="item-catalog__rating rating">
+													<div class="rating__body">
+														<div class="rating__line"></div>
+														<div class="rating__activeline"></div>
+														<div class="rating__stars">
+															<input type="radio" class="rating__star" value="1" name="rating">
+															<input type="radio" class="rating__star" value="2" name="rating">
+															<input type="radio" class="rating__star" value="3" name="rating">
+															<input type="radio" class="rating__star" value="4" name="rating">
+															<input type="radio" class="rating__star" value="5" name="rating">
+														</div>
+														<input value="5" type="hidden" name="rating" class="input rating-input">
+													</div>
+												</div>
+												<h4>Святки в Коломенском</h4>
+												<p>
+													От Рождества и до Крещения - целых 12 дней длился на Руси святочный период, и все это время гулял честной народ по городам и селам, потому что верил: работающих в праздник ожидают беды и несчастья. С утра до вечера на улицах не смолкал смех...
+												</p>
+											</div>
+											<div class="item-catalog__bottom">
+												<div class="item-catalog__sum">
+													от 1400
+													<span>p</span>
+												</div>
+												<a href="#" class="item-catalog__button button">Подробнее</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="catalog__column">
+									<div class="catalog__item item-catalog">
+										<div class="item-catalog__image">
+											<img src="../img/catalog/catalog-4.png" alt>
+											<div class="item-catalog__clock">4 часа</div>
+										</div>
+										<div class="item-catalog__content">
+											<div class="item-catalog__top">
+												<div class="item-catalog__rating rating">
+													<div class="rating__body">
+														<div class="rating__line"></div>
+														<div class="rating__activeline"></div>
+														<div class="rating__stars">
+															<input type="radio" class="rating__star" value="1" name="rating">
+															<input type="radio" class="rating__star" value="2" name="rating">
+															<input type="radio" class="rating__star" value="3" name="rating">
+															<input type="radio" class="rating__star" value="4" name="rating">
+															<input type="radio" class="rating__star" value="5" name="rating">
+														</div>
+														<input value="5" type="hidden" name="rating" class="input rating-input">
+													</div>
+												</div>
+												<h4>Квест-экскурсия в музыкальный продюсерский центр «The big music boss»</h4>
+												<p>
+													Организаторам школьных экскурсий в Москве приходится нелегко...
+												</p>
+											</div>
+											<div class="item-catalog__bottom">
+												<div class="item-catalog__sum">
+													от 1400
+													<span>p</span>
+												</div>
+												<a href="#" class="item-catalog__button button">Подробнее</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="catalog__column">
+									<div class="catalog__item item-catalog">
+										<div class="item-catalog__image">
+											<img src="../img/catalog/catalog-3.png" alt>
+											<div class="item-catalog__clock">4 часа</div>
+										</div>
+										<div class="item-catalog__content">
+											<div class="item-catalog__top">
+												<div class="item-catalog__rating rating">
+													<div class="rating__body">
+														<div class="rating__line"></div>
+														<div class="rating__activeline"></div>
+														<div class="rating__stars">
+															<input type="radio" class="rating__star" value="1" name="rating">
+															<input type="radio" class="rating__star" value="2" name="rating">
+															<input type="radio" class="rating__star" value="3" name="rating">
+															<input type="radio" class="rating__star" value="4" name="rating">
+															<input type="radio" class="rating__star" value="5" name="rating">
+														</div>
+														<input value="5" type="hidden" name="rating" class="input rating-input">
+													</div>
+												</div>
+												<h4>Экскурсия на ВДНХ «Знакомство с легендой»</h4>
+												<p>
+													Организаторам школьных экскурсий в Москве приходится нелегко, ведь из огромного разнообразия музеев, выставочных комплексов, парков нужно выбрать что-то одно...
+												</p>
+											</div>
+											<div class="item-catalog__bottom">
+												<div class="item-catalog__sum">
+													от 1400
+													<span>p</span>
+												</div>
+												<a href="#" class="item-catalog__button button">Подробнее</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="catalog__column">
+									<div class="catalog__item item-catalog">
+										<div class="item-catalog__image">
+											<img src="../img/catalog/catalog-1.png" alt>
+											<div class="item-catalog__clock">4 часа</div>
+										</div>
+										<div class="item-catalog__content">
+											<div class="item-catalog__top">
+												<div class="item-catalog__rating rating">
+													<div class="rating__body">
+														<div class="rating__line"></div>
+														<div class="rating__activeline"></div>
+														<div class="rating__stars">
+															<input type="radio" class="rating__star" value="1" name="rating">
+															<input type="radio" class="rating__star" value="2" name="rating">
+															<input type="radio" class="rating__star" value="3" name="rating">
+															<input type="radio" class="rating__star" value="4" name="rating">
+															<input type="radio" class="rating__star" value="5" name="rating">
+														</div>
+														<input value="5" type="hidden" name="rating" class="input rating-input">
+													</div>
+												</div>
+												<h4>Экскурсия на ВДНХ «Знакомство с легендой»</h4>
+												<p>
+													Организаторам школьных экскурсий в Москве приходится нелегко, ведь из огромного разнообразия музеев, выставочных комплексов, парков нужно выбрать что-то одно...
+												</p>
+											</div>
+											<div class="item-catalog__bottom">
+												<div class="item-catalog__sum">
+													от 1400
+													<span>p</span>
+												</div>
+												<a href="#" class="item-catalog__button button">Подробнее</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="catalog__column">
+									<div class="catalog__item item-catalog">
+										<div class="item-catalog__image">
+											<img src="../img/catalog/catalog-4.png" alt>
+											<div class="item-catalog__clock">4 часа</div>
+										</div>
+										<div class="item-catalog__content">
+											<div class="item-catalog__top">
+												<div class="item-catalog__rating rating">
+													<div class="rating__body">
+														<div class="rating__line"></div>
+														<div class="rating__activeline"></div>
+														<div class="rating__stars">
+															<input type="radio" class="rating__star" value="1" name="rating">
+															<input type="radio" class="rating__star" value="2" name="rating">
+															<input type="radio" class="rating__star" value="3" name="rating">
+															<input type="radio" class="rating__star" value="4" name="rating">
+															<input type="radio" class="rating__star" value="5" name="rating">
+														</div>
+														<input value="5" type="hidden" name="rating" class="input rating-input">
+													</div>
+												</div>
+												<h4>Экскурсия на ВДНХ «Знакомство с легендой»</h4>
+												<p>
+													Организаторам школьных экскурсий в Москве приходится нелегко, ведь из огромного разнообразия музеев, выставочных комплексов, парков нужно выбрать что-то одно...
+												</p>
+											</div>
+											<div class="item-catalog__bottom">
+												<div class="item-catalog__sum">
+													от 1400
+													<span>p</span>
+												</div>
+												<a href="#" class="item-catalog__button button">Подробнее</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="catalog__column">
+									<div class="catalog__item item-catalog">
+										<div class="item-catalog__image">
+											<img src="../img/catalog/catalog-2.png" alt>
+											<div class="item-catalog__clock">4 часа</div>
+										</div>
+										<div class="item-catalog__content">
+											<div class="item-catalog__top">
+												<div class="item-catalog__rating rating">
+													<div class="rating__body">
+														<div class="rating__line"></div>
+														<div class="rating__activeline"></div>
+														<div class="rating__stars">
+															<input type="radio" class="rating__star" value="1" name="rating">
+															<input type="radio" class="rating__star" value="2" name="rating">
+															<input type="radio" class="rating__star" value="3" name="rating">
+															<input type="radio" class="rating__star" value="4" name="rating">
+															<input type="radio" class="rating__star" value="5" name="rating">
+														</div>
+														<input value="5" type="hidden" name="rating" class="input rating-input">
+													</div>
+												</div>
+												<h4>Экскурсия на ВДНХ «Знакомство с легендой»</h4>
+												<p>
+													Организаторам школьных экскурсий в Москве приходится нелегко, ведь из огромного разнообразия музеев, выставочных комплексов, парков нужно выбрать что-то одно...
+												</p>
+											</div>
+											<div class="item-catalog__bottom">
+												<div class="item-catalog__sum">
+													от 1400
+													<span>p</span>
+												</div>
+												<a href="#" class="item-catalog__button button">Подробнее</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="catalog__column">
+									<div class="catalog__item item-catalog">
+										<div class="item-catalog__image">
+											<img src="../img/catalog/catalog-1.png" alt>
+											<div class="item-catalog__clock">4 часа</div>
+										</div>
+										<div class="item-catalog__content">
+											<div class="item-catalog__top">
+												<div class="item-catalog__rating rating">
+													<div class="rating__body">
+														<div class="rating__line"></div>
+														<div class="rating__activeline"></div>
+														<div class="rating__stars">
+															<input type="radio" class="rating__star" value="1" name="rating">
+															<input type="radio" class="rating__star" value="2" name="rating">
+															<input type="radio" class="rating__star" value="3" name="rating">
+															<input type="radio" class="rating__star" value="4" name="rating">
+															<input type="radio" class="rating__star" value="5" name="rating">
+														</div>
+														<input value="5" type="hidden" name="rating" class="input rating-input">
+													</div>
+												</div>
+												<h4>Экскурсия на ВДНХ «Знакомство с легендой»</h4>
+												<p>
+													Организаторам школьных экскурсий в Москве приходится нелегко, ведь из огромного разнообразия музеев, выставочных комплексов, парков нужно выбрать что-то одно...
+												</p>
+											</div>
+											<div class="item-catalog__bottom">
+												<div class="item-catalog__sum">
+													от 1400
+													<span>p</span>
+												</div>
+												<a href="#" class="item-catalog__button button">Подробнее</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="catalog__column">
+									<div class="catalog__item item-catalog">
+										<div class="item-catalog__image">
+											<img src="../img/catalog/catalog-2.png" alt>
+											<div class="item-catalog__clock">4 часа</div>
+										</div>
+										<div class="item-catalog__content">
+											<div class="item-catalog__top">
+												<div class="item-catalog__rating rating">
+													<div class="rating__body">
+														<div class="rating__line"></div>
+														<div class="rating__activeline"></div>
+														<div class="rating__stars">
+															<input type="radio" class="rating__star" value="1" name="rating">
+															<input type="radio" class="rating__star" value="2" name="rating">
+															<input type="radio" class="rating__star" value="3" name="rating">
+															<input type="radio" class="rating__star" value="4" name="rating">
+															<input type="radio" class="rating__star" value="5" name="rating">
+														</div>
+														<input value="5" type="hidden" name="rating" class="input rating-input">
+													</div>
+												</div>
+												<h4>Экскурсия на Останкинскую телебашню «337 метров над Москвой»</h4>
+												<p>
+													Организаторам школьных экскурсий в Москве приходится нелегко, ведь из огромного разнообразия музеев, выставочных комплексов...
+												</p>
+											</div>
+											<div class="item-catalog__bottom">
+												<div class="item-catalog__sum">
+													от 1400
+													<span>p</span>
+												</div>
+												<a href="#" class="item-catalog__button button">Подробнее</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="catalog__column">
+									<div class="catalog__item item-catalog">
+										<div class="item-catalog__image">
+											<img src="../img/catalog/catalog-3.png" alt>
+											<div class="item-catalog__clock">4 часа</div>
+										</div>
+										<div class="item-catalog__content">
+											<div class="item-catalog__top">
+												<div class="item-catalog__rating rating">
+													<div class="rating__body">
+														<div class="rating__line"></div>
+														<div class="rating__activeline"></div>
+														<div class="rating__stars">
+															<input type="radio" class="rating__star" value="1" name="rating">
+															<input type="radio" class="rating__star" value="2" name="rating">
+															<input type="radio" class="rating__star" value="3" name="rating">
+															<input type="radio" class="rating__star" value="4" name="rating">
+															<input type="radio" class="rating__star" value="5" name="rating">
+														</div>
+														<input value="5" type="hidden" name="rating" class="input rating-input">
+													</div>
+												</div>
+												<h4>Святки в Коломенском</h4>
+												<p>
+													От Рождества и до Крещения - целых 12 дней длился на Руси святочный период, и все это время гулял честной народ по городам и селам, потому что верил: работающих в праздник ожидают беды и несчастья. С утра до вечера на улицах не смолкал смех...
+												</p>
+											</div>
+											<div class="item-catalog__bottom">
+												<div class="item-catalog__sum">
+													от 1400
+													<span>p</span>
+												</div>
+												<a href="#" class="item-catalog__button button">Подробнее</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="catalog__column">
+									<div class="catalog__item item-catalog">
+										<div class="item-catalog__image">
+											<img src="../img/catalog/catalog-4.png" alt>
+											<div class="item-catalog__clock">4 часа</div>
+										</div>
+										<div class="item-catalog__content">
+											<div class="item-catalog__top">
+												<div class="item-catalog__rating rating">
+													<div class="rating__body">
+														<div class="rating__line"></div>
+														<div class="rating__activeline"></div>
+														<div class="rating__stars">
+															<input type="radio" class="rating__star" value="1" name="rating">
+															<input type="radio" class="rating__star" value="2" name="rating">
+															<input type="radio" class="rating__star" value="3" name="rating">
+															<input type="radio" class="rating__star" value="4" name="rating">
+															<input type="radio" class="rating__star" value="5" name="rating">
+														</div>
+														<input value="5" type="hidden" name="rating" class="input rating-input">
+													</div>
+												</div>
+												<h4>Квест-экскурсия в музыкальный продюсерский центр «The big music boss»</h4>
+												<p>
+													Организаторам школьных экскурсий в Москве приходится нелегко...
+												</p>
+											</div>
+											<div class="item-catalog__bottom">
+												<div class="item-catalog__sum">
+													от 1400
+													<span>p</span>
+												</div>
+												<a href="#" class="item-catalog__button button">Подробнее</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="catalog__pagination pagination-catalog">
+								<span class="pagination-catalog__arrow">
+									<span class="pagination-catalog__arrow-prev arrow-prev _icon-arrow"></span>
+								</span>
+								<span class="pagination-catalog__number">1</span>
+								<a href="#" class="pagination-catalog__number _active-pagination">2</a>
+								<a href="#" class="pagination-catalog__number">3</a>
+								<a href="#" class="pagination-catalog__number">4</a>
+								<a href="#" class="pagination-catalog__number">5</a>
+								<a href="#" class="pagination-catalog__arrow">
+									<span class="pagination-catalog__arrow-next arrow-next _icon-arrow"></span>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="page__subscribe subscribe">
+					<div class="subscribe__container">
+						<div class="subscribe__content">
+							<div class="subscribe__image">
+								<img src="../img/icons/children.svg" alt>
+							</div>
+							<div class="subscribe__title">
+								<div class="h1">Подписывайтесь на новые экскурсии,<br> программы, туры</div>
+								<form action="#" class="subscribe__form">
+									<div class="subscribe__input">
+										<input data-required data-validate autocomplete="off" type="text" name="form[]" placeholder="E-mail">
+										<button type="submit" class="subscribe__button button">Подписаться</button>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</main>
+			@@include('html/_footer.htm',{})
+		</div>
+		@@include('html/_popup.htm',{})
+		@@include('html/_js.htm',{})
+	</body>
+</html>
